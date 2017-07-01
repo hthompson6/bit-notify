@@ -9,7 +9,7 @@ $ pip install bit-notify
 ### Install from source
 ```
 $ git clone  https://github.com/hthompson6/bit-notify.git
-$ cd bit-bind
+$ cd bit-notify
 $ python setup.py install -e .
 ```
 
