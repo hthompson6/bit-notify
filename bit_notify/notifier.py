@@ -72,4 +72,3 @@ class Notifier(Thread):
                 self.push_notification(updates)
 
             time.sleep(180)
-            self.KILLFLAG = 1
