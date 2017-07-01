@@ -27,6 +27,7 @@ reciever = '<country_code><my_personal_phone_number>'
 
 notify = Notifier(api_key, api_sign, account_sid, auth_token, sender, reciever)
 notify.start()
+
 notify.kill_thread()
 ```
 
