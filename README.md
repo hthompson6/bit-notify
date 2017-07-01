@@ -27,6 +27,7 @@ reciever = '<country_code><my_personal_phone_number>'
 
 notify = Notifier(api_key, api_sign, account_sid, auth_token, sender, reciever)
 notify.start()
+notify.kill_thread()
 ```
 
 ### Advanced Usage
@@ -41,9 +42,4 @@ To alter the threshold simply modify the class instatiaion:
 notify = Notifier(api_key, api_sign, account_sid, auth_token,
                   sender, reciever, lower_bound=-15, upper_bound=50)
 notify.start()
-```
-
-To stop the thread execution:
-```python
-notify.kill_thread()
 ```
