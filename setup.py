@@ -22,5 +22,6 @@ setup(
       'Operating System :: OS Independent',
       'License :: OSI Approved :: MIT License',
       'Development Status :: 3 - Alpha',
-    ]
+    ],
+    install_requires=['twilio>=6.4.2','bit-bind>=0.0.1']
 )
