@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "bit-notify",
-    version = "0.1.1",
+    version = "0.1.2",
     packages = find_packages(),
 
     author = "Hunter Thompson",
@@ -23,5 +23,5 @@ setup(
       'License :: OSI Approved :: MIT License',
       'Development Status :: 3 - Alpha',
     ],
-    install_requires=['twilio>=6.4.2','bit-bind>=0.0.1']
+    install_requires=['twilio>=6.4.2','bit-bind>=0.1.0']
 )
