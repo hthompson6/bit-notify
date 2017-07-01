@@ -43,7 +43,7 @@ notify = Notifier(api_key, api_sign, account_sid, auth_token,
 notify.start()
 ```
 
-To kill the thread execute:
+To stop the thread execution:
 ```python
 notify.kill_thread()
 ```
