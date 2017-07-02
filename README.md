@@ -38,7 +38,7 @@ checked every 30 minutes.)
 
 The default is as follows: **-100% < %change < 100%**
 
-To alter the threshold simply modify the class instatiaion:
+To alter the threshold simply modify the class instantiation:
 ```python
 notify = Notifier(api_key, api_sign, account_sid, auth_token,
                   sender, reciever, lower_bound=-15, upper_bound=50)
